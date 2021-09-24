@@ -1,0 +1,38 @@
+
+Depuis la carte principale :
+
+0 exitUrl => /@/veepee/brief-virtual-office/bar
+1 exitUrl => /@/veepee/brief-virtual-office/brussels
+2 exitUrl => /@/veepee/brief-virtual-office/telaviv
+3 exitUrl => /@/veepee/brief-virtual-office/lausanne
+4 exitUrl => /@/veepee/brief-virtual-office/barcelone
+5 exitUrl => /@/veepee/brief-virtual-office/amstderdam
+6 exitUrl => /@/veepee/brief-virtual-office/warsaw
+7 exitUrl => /@/veepee/brief-virtual-office/milan
+8 exitUrl => /@/veepee/brief-virtual-office/dusseldorf
+9 exitUrl => /@/veepee/brief-virtual-office/veronerdc
+
+Depuis le bar :
+1 exiitUrl => /@/veepee/brief-virtual-office/cyber
+
+Depuis veronerdc vers verone-1 :
+1 exitUrl => /@/veepee/brief-virtual-office/verone-1#ENTRY2-Verone-1-ascenceur
+2 exitUrl => /@/veepee/brief-virtual-office/verone-1#ENTRY1-Verone-1-escaliers
+
+Depuis verone-1 vers veronerdc :
+1 exitUrl => /@/veepee/brief-virtual-office/veronerdc#ENTRY2-Veronerdc-ascenceur
+2 exitUrl => /@/veepee/brief-virtual-office/veronerdc#ENTRY1-Veronerdc-escaliers
+
+Depuis les autres cartes vers Wilson :
+
+exitUrl => /@/veepee/brief-virtual-office/vp-quest#ENTRY0-bar
+exitUrl => /@/veepee/brief-virtual-office/vp-quest#ENTRY1-Brussels
+exitUrl => /@/veepee/brief-virtual-office/vp-quest#ENTRY2-TelAviv
+exitUrl => /@/veepee/brief-virtual-office/vp-quest#ENTRY3-Lausanne
+exitUrl => /@/veepee/brief-virtual-office/vp-quest#ENTRY4-Barcelone
+exitUrl => /@/veepee/brief-virtual-office/vp-quest#ENTRY5-Amsterdam
+exitUrl => /@/veepee/brief-virtual-office/vp-quest#ENTRY6-Warsaw
+exitUrl => /@/veepee/brief-virtual-office/vp-quest#ENTRY7-Milan
+exitUrl => /@/veepee/brief-virtual-office/vp-quest#ENTRY8-Dusseldorf
+exitUrl => /@/veepee/brief-virtual-office/vp-quest#ENTRY9-Verone
+exitUrl => /@/veepee/brief-virtual-office/vp-quest#ENTRY10-cyber
