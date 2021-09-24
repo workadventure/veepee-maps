@@ -39,13 +39,14 @@
 
                 const mapsElement = document.getElementById('maps');
                 maps.forEach(({map, id}) => {
-                    const url = `https://play.workadventu.re/_/${instanceId}/${host}${map}`;
+                    const url = `https://play.workadventu.re/_/${instanceId}/${host}/${map}`;
                     const text = document.createElement('p');
                     text.innerHTML = `<br/> You can test map <strong>${id}</strong>:`;
 
                     const link = document.createElement('a');
                     link.href = url;
                     link.innerText = url;
+                    link.target = '_blank';
 
                     mapsElement.appendChild(text);
                     mapsElement.appendChild(link);
