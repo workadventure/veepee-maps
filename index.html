@@ -18,17 +18,39 @@
                     path = path.substr(path, path.length - 'index.html'.length);
                 }
                 const instanceId = Math.random().toString(36).substring(2, 15);
-                const url = `https://play.workadventu.re/_/${instanceId}/${host}${path}map.json`;
-                document.getElementById('mapLink').href = url;
-                document.getElementById('mapLink2').href = url;
-                document.getElementById('mapLink').innerText = url;
 
-                const mapUrl = window.location.protocol+'//'+window.location.host+path+'map.json';
-                document.getElementById('mapUrl').innerText = mapUrl;
+                const maps = [
+                    {id:'amsterdam', map:'maps/amsterdam/amsterdam.json'},
+                    {id:'bar', map:'maps/bar/bar.json'},
+                    {id:'barcelone', map:'maps/barcelone/barcelone.json'},
+                    {id:'brussels', map:'maps/brussels/brussels.json'},
+                    {id:'v', map:'maps/cyber/cyber.json'},
+                    {id:'dusseldorf', map:'maps/dusseldorf/dusseldorf.json'},
+                    {id:'lausane', map:'maps/lausane/lausane.json'},
+                    {id:'milan', map:'maps/milan/milan.json'},
+                    {id:'telaviv', map:'maps/telaviv/telaviv.json'},
+                    {id:'veronerdc', map:'maps/verone/veronerdc.json'},
+                    {id:'verone-1', map:'maps/verone/verone-1.json'},
+                    {id:'vp-quest', map:'maps/vp-quest/vp-quest.json'},
+                    {id:'warehousse', map:'maps/warehousse/warehousse.json'},
+                    {id:'bar', map:'maps/warehousse/bar.json'},
+                    {id:'warsaw', map:'maps/warsaw/warsaw.json'},
+                ];
 
-                const gettingStartedLink = 'https://workadventu.re/getting-started?name=Map&mapUrl='+mapUrl;
-                document.getElementById('gettingStartedLink').href = gettingStartedLink;
+                const mapsElement = document.getElementById('maps');
+                maps.forEach(({map, id}) => {
+                    const url = `https://play.workadventu.re/_/${instanceId}/${host}/${map}`;
+                    const text = document.createElement('p');
+                    text.innerHTML = `<br/> You can test map <strong>${id}</strong>:`;
 
+                    const link = document.createElement('a');
+                    link.href = url;
+                    link.innerText = url;
+                    link.target = '_blank';
+
+                    mapsElement.appendChild(text);
+                    mapsElement.appendChild(link);
+                });
             };
         </script>
     </head>
@@ -42,16 +64,13 @@
                 <p>This website contains a map for <a href="https://workadventu.re">Workadventu.re</a>.</p>
             </div>
 
-            <div class="nes-container with-title is-centered" style="margin-top: 1rem">
-                <p class="title">Test this map</p>
-                <p>You can test this map at <a id="mapLink" href=""></a>.</p>
-                <p><a id="mapLink2" href="" class="nes-btn is-primary">Test this map</a></p>
+            <div id="maps" class="nes-container with-title is-centered" style="margin-top: 1rem">
             </div>
 
             <div class="nes-container with-title is-centered" style="margin-top: 1rem">
                 <p class="title">Happy with the result?</p>
                 <p>Register your room on Workadventu.re.</p>
-                <p><a id="gettingStartedLink" href="" class="nes-btn is-primary">Create a new room</a></p>
+                <p><a id="gettingStartedLink" href="https://workadventu.re/getting-started" class="nes-btn is-primary">Create a new room</a></p>
                 <p>or copy and paste the map URL in WorkAdventu.re's administration panel:</p>
                 <p><span id="mapUrl" style="color: gray" /></p>
             </div>
