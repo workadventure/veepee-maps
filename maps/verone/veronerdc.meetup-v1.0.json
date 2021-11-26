@@ -77,7 +77,7 @@
                 {
                  "name":"openWebsitePolicy",
                  "type":"string",
-                 "value":"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; allowfullscreen;"
+                 "value":"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen;"
                 }],
          "type":"tilelayer",
          "visible":true,
