@@ -50,7 +50,7 @@
                         {
                          "name":"playAudio",
                          "type":"string",
-                         "value":"audio\/santa.mp3"
+                         "value":"https:\/\/github.com\/workadventure\/veepee-maps\/blob\/master\/maps\/santa\/src\/audio\/santa.mp3?raw=true"
                         }],
                  "type":"tilelayer",
                  "visible":true,
