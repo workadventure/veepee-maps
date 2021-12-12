@@ -45,7 +45,7 @@
                         {
                          "name":"playAudio",
                          "type":"string",
-                         "value":"src\/audio\/test.mp3"
+                         "value":"src\/audio\/santa.mp3"
                         }],
                  "type":"tilelayer",
                  "visible":true,
