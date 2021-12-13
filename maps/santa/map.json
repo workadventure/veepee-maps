@@ -997,7 +997,7 @@
         {
          "name":"mapImage",
          "type":"string",
-         "value":"veronerdc.png"
+         "value":"map.png"
         }, 
         {
          "name":"mapLink",
@@ -1007,7 +1007,7 @@
         {
          "name":"mapName",
          "type":"string",
-         "value":"veronerdc"
+         "value":"Santa"
         }],
  "renderorder":"right-down",
  "tiledversion":"1.7.2",
