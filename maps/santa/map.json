@@ -476,7 +476,7 @@
                         {
                          "name":"exitUrl",
                          "type":"string",
-                         "value":"@\/veepee\/brief-virtual-office\/gaminghome"
+                         "value":"@\/veepee\/brief-virtual-office\/races\/race\/1\/map.json"
                         }],
                  "type":"tilelayer",
                  "visible":true,
