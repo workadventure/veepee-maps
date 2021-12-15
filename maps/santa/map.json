@@ -476,7 +476,7 @@
                         {
                          "name":"exitUrl",
                          "type":"string",
-                         "value":"@\/veepee\/brief-virtual-office\/gaminghome"
+                         "value":"\/@\/veepee\/brief-virtual-office\/gaminghome"
                         }],
                  "type":"tilelayer",
                  "visible":true,
@@ -494,7 +494,7 @@
                         {
                          "name":"exitUrl",
                          "type":"string",
-                         "value":"@\/veepee\/brief-virtual-office\/gaminghome"
+                         "value":"\/@\/veepee\/brief-virtual-office\/gaminghome"
                         }],
                  "type":"tilelayer",
                  "visible":true,
@@ -530,7 +530,7 @@
                         {
                          "name":"exitUrl",
                          "type":"string",
-                         "value":"@\/veepee\/brief-virtual-office\/gaminghome"
+                         "value":"\/@\/veepee\/brief-virtual-office\/gaminghome"
                         }],
                  "type":"tilelayer",
                  "visible":true,
